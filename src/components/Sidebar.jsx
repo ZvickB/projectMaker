@@ -9,10 +9,10 @@ export default function Sidebar({onStartAddProject, projects, onSelectProject, s
         </div>
         <ul className="mt-8">
             {projects.map((project)=>{
-let cssClasses="w-4/5 overflow-scroll text-left px-2 py-1 rounded-sm my-0  hover:text-stone-200 hover:bg-stone-700"
+let cssClasses='w-4/5 overflow-scroll text-left px-2 py-1 rounded-sm my-0  hover:text-stone-200 hover:bg-stone-700'
 
 if (project.id===selectedProjectId){
-    cssClasses += ' bg-stone-800 text-stone-200'
+    cssClasses += ' bg-stone-700 text-stone-200'
 }else{
     cssClasses += ' text-stone-400'
 }
