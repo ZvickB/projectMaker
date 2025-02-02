@@ -120,7 +120,9 @@ content= <NoProjectSselected onStartAddProject={handleStartAddProject} />
   onSelectProject={handleSelectProject}
   selectedProjectId={projectsState.selectedProjectId}
   />
-  <a href="https://www.google.com"></a>
+
+  <iframe src="https://www.google.com" frameborder="0">google</iframe>
+  <a href=""></a>
   {content}
     </main >
   );
