@@ -120,6 +120,7 @@ content= <NoProjectSselected onStartAddProject={handleStartAddProject} />
   onSelectProject={handleSelectProject}
   selectedProjectId={projectsState.selectedProjectId}
   />
+  <a href="https://www.google.com"></a>
   {content}
     </main >
   );
